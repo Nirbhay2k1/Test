@@ -1,42 +1,24 @@
-class Cart:
-    def __init__(self):
-        self.items = []
+class ShoppingCart:
 
-    def add_item(self, item_name, qty):
-        item = (item_name, qty)
-        self.items.append(item)
+    def __init__(self) -> None:
+        self.items={}
+        self.sum=0       
 
-    def remove_item(self, item_name):
-        for item in self.items:
-            if item[0] == item_name:
-                self.items.remove(item)
-                break
+    def add_items(self,item,price):
+        self.items[item]=price
+        self.sum+=price
+        return self.sum
 
-    def calculate_total(self):
-        total = 0
-        for item in self.items:
-            total += item[1]
-        return total
+    def remove_items(self,item):
+        sum-=self.items[item]
+        self.items.pop(item)
 
+    def total(self):
+        return self.sum
 
-cart = Cart()
+s= ShoppingCart()
+s.add_items("Fruits",27)
+s.add_items("Vegetables",72)
+print(s.total())
 
-cart.add_item("Apple", 200)
-cart.add_item("Banana", 70)
-cart.add_item("Orange", 150)
-
-print("Current Items in Cart:")
-for item in cart.items:
-    print(item[0], "-", item[1])
-
-total_qty = cart.calculate_total()
-print("Total Quantity:", total_qty)
-
-cart.remove_item("Orange")
-
-print("\nUpdated Items in Cart after removing Orange:")
-for item in cart.items:
-    print(item[0], "-", item[1])
-
-total_qty = cart.calculate_total()
-print("Total Quantity:", total_qty)
+ 
