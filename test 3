@@ -38,7 +38,6 @@ print("\nPopped item:", popped_item)
 print("\nStack size:", stack.size())
 print("Top element:", stack.peek())
 
-#----------------------------------------
 stack1 = Stack()
 print("\nStack size:", stack1.size())
 popped_item = stack1.pop()
