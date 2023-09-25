@@ -1,7 +1,7 @@
 # Test
 For Training 
 
-[Test 2](Test 1.py)
+[Test 1.py](https://github.com/Nirbhay2k1/Test/blob/018d84a090e6d0cdddc3ca56a4b9a15387da42fe/Test%201.py)
 # Heading 1
 1. item 1
 2. item 2
