@@ -7,4 +7,5 @@ Stack [Test 3](https://github.com/Nirbhay2k1/Test/blob/348b9f98f8e2186ef53080a5a
 Shopping Cart [Test 4](https://github.com/Nirbhay2k1/Test/blob/348b9f98f8e2186ef53080a5a16089df16d507b1/Test%204.py)<br>
 Queue [Test 5](https://github.com/Nirbhay2k1/Test/blob/348b9f98f8e2186ef53080a5a16089df16d507b1/Test%205.py)<br>
 Bank [Test 6](https://github.com/Nirbhay2k1/Test/blob/348b9f98f8e2186ef53080a5a16089df16d507b1/Test%206.py)<br>
-Read File[Test 7](https://github.com/Nirbhay2k1/Test/blob/da447591d9bffe2c9a6fc3cb5ea256581225c55f/Test%207.py)<br>
+Read and write File[Test 7](https://github.com/Nirbhay2k1/Test/blob/da447591d9bffe2c9a6fc3cb5ea256581225c55f/Test%207.py)<br>
+Content from file 1 is copied in file 2
